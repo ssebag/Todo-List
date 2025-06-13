@@ -1,0 +1,53 @@
+.todo-list{
+    background-color: var(--dark-purple-color);
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: max-content;
+    min-height: 350px;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+.todo-list input{
+    border-radius: 5px;
+    border: 2px solid var(--purple-color);
+    padding: 8px 15px;
+    box-shadow: 5px 5px 15px 5px var(--Black-color);
+}
+.todo-list input:focus, .todo-list input:hover{
+    border: 2px solid var(--purple-color);
+    outline: none;
+}
+.todo-list .input-div{
+    position: relative;
+    width: 95%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.todo-list .input-div button{
+    background-color: var(--purple-color);
+    position: absolute;
+    right: 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.todo-list ul{
+    width: 95%;
+}
+.todo-list li{
+    background: var(--purple-color);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width:600px){
+    .todo-list{
+        width: 350px;
+    }
+}

@@ -1,0 +1,10 @@
+.lang{
+    background-color: var(--dark-purple-color);
+    color: var(--White-color);
+    text-align: center;
+    border-radius: 5px;
+    width: max-content;
+    padding: 14px;
+    margin: 20px 0 0 20px;
+  }
+  
