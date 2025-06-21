@@ -6,10 +6,10 @@ import Navbar from './Component/Navbar/Navbar'
 function App() {
   
   return (
-    <>
+    <div className='App flex-col'>
       <Navbar />
       <ToDo />
-    </>
+    </div>
   )
 }
 

@@ -1,16 +1,12 @@
 .todo-list{
     background-color: var(--dark-purple-color);
     width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: max-content;
     min-height: 350px;
-    transform: translate(-50%,-50%);
     border-radius: 25px;
     padding: 30px;
     text-align: center;
     justify-content: space-between;
+    align-self: center;
 }
 .todo-list input{
     border-radius: 5px;

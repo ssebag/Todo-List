@@ -12,7 +12,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="lang container">
+   <nav>
+      <div className="lang container">
         {
            lang == 'ar' ? (
             <button onClick={()=> changeLanguage('en')}>English</button>
@@ -20,6 +21,7 @@ export default function Navbar() {
             <button onClick={()=> changeLanguage('ar')}>العربية</button>
             )
         }
-    </div>
+      </div>
+   </nav>
   );
 }

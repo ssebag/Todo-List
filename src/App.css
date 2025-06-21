@@ -21,6 +21,7 @@
   body{
       background-color: var(--purple-color);
       font-family: "Edu NSW ACT Foundation", cursive;
+      height: max-content;
   } 
   a{
       text-decoration: none;
@@ -57,3 +58,7 @@
   .pointer{
       cursor:pointer
   }
+.App{
+    gap: 60px
+}  
+

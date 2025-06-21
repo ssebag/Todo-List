@@ -1,3 +1,6 @@
+nav{
+  height: 40px;
+}
 .lang{
     background-color: var(--dark-purple-color);
     color: var(--White-color);
