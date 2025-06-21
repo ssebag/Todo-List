@@ -5,7 +5,7 @@
     border-radius: 25px;
     padding: 30px;
     text-align: center;
-    justify-content: space-between;
+    gap: 25px;
     align-self: center;
 }
 .todo-list input{
